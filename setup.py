@@ -20,12 +20,12 @@ setup(name='simplelayout.types.flowplayerblock',
       url='http://svn.plone.org/svn/collective/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['simplelayout', 'simplelayout.flowplayerblock'],
+      namespace_packages=['simplelayout', 'simplelayout.types'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'collective.flowplayer'
+          'collective.flowplayer',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
