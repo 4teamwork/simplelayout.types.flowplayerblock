@@ -30,4 +30,13 @@
         image="sl-movie.gif"
         />
 
+    <browser:page
+        name="collective.flowplayer.js"
+        for="*"
+        layer="simplelayout.base.interfaces.ISimpleLayoutLayer"
+        class=".js.SlJavaScript"
+        permission="zope2.View"
+        />
+
+
 </configure>

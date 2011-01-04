@@ -3,8 +3,7 @@
                                 class string:simplelayout-block-wrapper;">
     <a tal:attributes="name here/id" ></a>
 
-    <div tal:define="audio view/audio_only"
-         tal:attributes="style view/scale">
+    <div tal:define="audio view/audio_only">
         <span class="flowPlayerMessage discreet" i18n:translate="video_fallback">
             If your video does not start playing shortly, please ensure
             that you have JavaScript enabled and the latest version of
