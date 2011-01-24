@@ -15,7 +15,9 @@ class SlJavaScript(JavaScript):
         self.request.response.setHeader("Content-type", "text/javascript")
 
         return """(function($) {
-        
+        if (typeof(simplelayout) === 'undefined'){
+            simplelayout = new Object;
+        }
         simplelayout.loadFlowplayer = function($el){
             $('.autoFlowPlayer', $el).each(function() {
                 var config = %(config)s;
