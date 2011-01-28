@@ -10,6 +10,10 @@
     <permission value="Modify portal content"/>
    </action>
 
+
+   <action title="Normal" action_id="sl-dummy-dummy-dummy" category="sl-layouts"
+      visible="False">
+   </action>
    
    <action title="Flowplayer" action_id="sl-dummy-dummy-flowplayer" category="sl-layouts"
       condition_expr=""
