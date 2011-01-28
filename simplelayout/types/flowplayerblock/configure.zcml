@@ -18,6 +18,16 @@
     provides="Products.GenericSetup.interfaces.EXTENSION"
     />
 
+
+  <genericsetup:registerProfile
+    name="plone3"
+    title="simplelayout.types.flowplayerblock Plone 3"
+    directory="profiles/plone3"
+    description="extends file block with a flowplayer enabled view for PLONE3"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+
+
     <browser:page
         for="collective.flowplayer.interfaces.IVideo"
         name="block_view-flowplayer"
