@@ -3,18 +3,6 @@
    meta_type="Factory-based Type Information with dynamic views"
    i18n:domain="plone" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
 
-   <action title="No Image" action_id="sl-no-image" category="sl-layouts"
-      condition_expr=""
-      url_expr="string:${here/absolute_url}/block_control"
-      visible="True">
-    <permission value="Modify portal content"/>
-   </action>
-
-
-   <action title="Normal" action_id="sl-dummy-dummy-dummy" category="sl-layouts"
-      visible="False">
-   </action>
-   
    <action title="Flowplayer" action_id="sl-dummy-dummy-flowplayer" category="sl-layouts"
       condition_expr=""
       url_expr="string:${here/absolute_url}/block_control"
