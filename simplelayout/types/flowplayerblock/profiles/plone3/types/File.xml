@@ -11,8 +11,11 @@
    </action>
 
 
-   <action title="Normal" action_id="sl-dummy-dummy-dummy"
+   <action title="Normal" action_id="sl-dummy-dummy-dummy" category="sl-layouts"
+      condition_expr="" icon_expr="string:/++resource++sl/icons/sl-layout4.gif"
+      url_expr="string:${here/absolute_url}/block_control"
       visible="False">
+    <permission value="Modify portal content"/>
    </action>
    
 </object>
