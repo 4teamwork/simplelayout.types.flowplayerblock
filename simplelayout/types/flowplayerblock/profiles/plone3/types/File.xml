@@ -9,5 +9,10 @@
       visible="True">
     <permission value="Modify portal content"/>
    </action>
+
+
+   <action title="Normal" action_id="sl-dummy-dummy-dummy"
+      visible="False">
+   </action>
    
 </object>
