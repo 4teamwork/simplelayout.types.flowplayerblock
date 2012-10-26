@@ -5,7 +5,7 @@ version = '1.0a3.dev0'
 
 setup(name='simplelayout.types.flowplayerblock',
       version=version,
-      description="",
+      description="Flow-player support for simplelayout file blocks.",
       long_description=open("README.rst").read() + "\n" + \
           open(os.path.join("docs", "HISTORY.txt")).read(),
 
