@@ -6,7 +6,7 @@ version = '1.0a3.dev0'
 setup(name='simplelayout.types.flowplayerblock',
       version=version,
       description="",
-      long_description=open("README.txt").read() + "\n" + \
+      long_description=open("README.rst").read() + "\n" + \
           open(os.path.join("docs", "HISTORY.txt")).read(),
 
       # Get more strings from
