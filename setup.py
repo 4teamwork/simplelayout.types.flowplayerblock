@@ -30,6 +30,7 @@ setup(name='simplelayout.types.flowplayerblock',
       install_requires=[
         'setuptools',
         'collective.flowplayer',
+        'ftw.upgrade',
         # -*- Extra requirements: -*-
         ],
 
