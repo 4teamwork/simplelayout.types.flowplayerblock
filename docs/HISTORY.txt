@@ -4,6 +4,11 @@ Changelog
 1.0a3 (unreleased)
 ------------------
 
+- Integration newest collective.flowplayer 3.1.1.
+  Add upgrade step.
+  [mathias.leimgruber]
+
+
 - Move package to github.
   [jone]
 
