@@ -9,7 +9,7 @@ tests_require = ['ftw.testing',
 setup(name='simplelayout.types.flowplayerblock',
       version=version,
       description="Flow-player support for simplelayout file blocks.",
-      long_description=open("README.rst").read() + "\n" + \
+      long_description=open("README.rst").read() + "\n" +
           open(os.path.join("docs", "HISTORY.txt")).read(),
 
       # Get more strings from

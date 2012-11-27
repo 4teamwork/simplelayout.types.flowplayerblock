@@ -1,6 +1,6 @@
 <div class="#" id="#"
                 tal:attributes="id here/id;
-                                class string:simplelayout-block-wrapper;">
+                                class string:simplelayout-block-wrapper flowplayerblock">
     <a tal:attributes="name here/id" ></a>
 
     <div tal:define="audio view/audio_only">
