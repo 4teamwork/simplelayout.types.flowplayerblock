@@ -50,7 +50,7 @@ class TestFlowplayerBlock(TestCase):
         dummy.filename = "some.flv"
         self.file.setFile(dummy)
         self.assertIn('simplelayout-block-wrapper flowplayerblock',
-                       view.render())
+                       view.index())
 
     def tearDown(self):
         super(TestFlowplayerBlock, self).tearDown()
