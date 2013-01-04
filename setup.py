@@ -3,10 +3,13 @@ import os
 
 version = '1.0a3.dev0'
 
+tests_require = ['ftw.testing',
+                 'plone.app.testing', ]
+
 setup(name='simplelayout.types.flowplayerblock',
       version=version,
       description="Flow-player support for simplelayout file blocks.",
-      long_description=open("README.rst").read() + "\n" + \
+      long_description=open("README.rst").read() + "\n" +
           open(os.path.join("docs", "HISTORY.txt")).read(),
 
       # Get more strings from
@@ -26,10 +29,14 @@ setup(name='simplelayout.types.flowplayerblock',
       namespace_packages=['simplelayout', 'simplelayout.types'],
       include_package_data=True,
       zip_safe=False,
+      tests_require=tests_require,
+      extras_require=dict(tests=tests_require),
 
       install_requires=[
         'setuptools',
+        'simplelayout.base',
         'collective.flowplayer',
+        'ftw.upgrade',
         # -*- Extra requirements: -*-
         ],
 
