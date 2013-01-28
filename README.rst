@@ -30,6 +30,7 @@ Links
 - simplelayout.types.flowplayerblock github project repository: https://github.com/4teamwork/simplelayout.types.flowplayerblock
 - Issue tracker: https://github.com/4teamwork/simplelayout.types.flowplayerblock/issues
 - Package on pypi: http://pypi.python.org/pypi/simplelayout.types.flowplayerblock
+- Continuous integration: https://jenkins.4teamwork.ch/search?q=simplelayout.types.flowplayerblock
 
 
 Copyright
