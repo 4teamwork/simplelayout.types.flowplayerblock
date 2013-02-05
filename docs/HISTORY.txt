@@ -4,6 +4,9 @@ Changelog
 1.0b3 (unreleased)
 ------------------
 
+- Add upgrade step to fix File FTI.
+  [mathias.leimgruber]
+
 - Do not touch File's default view and view methods in FTI.
   [mathias.leimgruber]
 
