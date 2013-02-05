@@ -11,4 +11,4 @@ class UseNewCollectiveFlowplayer311(UpgradeStep):
             'profile-collective.flowplayer:base')
 
         self.setup_install_profile(
-            'profile-simplelayout.types.flowplayer.upgrades:1000')
+            'profile-simplelayout.types.flowplayerblock.upgrades:1000')
