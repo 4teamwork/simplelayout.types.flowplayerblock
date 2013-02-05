@@ -9,7 +9,7 @@
       visible="True">
     <permission value="Modify portal content"/>
    </action>
-   
+
    <action title="Flowplayer" action_id="sl-dummy-dummy-flowplayer" category="sl-layouts"
       condition_expr=""
       icon_expr="string:/++resource++sl-movie.gif"
@@ -17,5 +17,5 @@
       visible="True">
     <permission value="Modify portal content"/>
    </action>
-   
+
 </object>
