@@ -10,7 +10,7 @@
         source="1.0"
         destination="1000"
         handler="simplelayout.types.flowplayerblock.upgrades.to1000.UseNewCollectiveFlowplayer311"
-        profile="egov.core:default"
+        profile="simplelayout.types.flowplayerblock:default"
         />
 
     <genericsetup:registerProfile
