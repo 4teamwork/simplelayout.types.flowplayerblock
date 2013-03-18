@@ -12,7 +12,7 @@
 
    <action title="Flowplayer" action_id="sl-dummy-dummy-flowplayer" category="sl-layouts"
       condition_expr=""
-      icon_expr="string:/++resource++sl-movie.gif"
+      icon_expr=""
       url_expr="string:${here/absolute_url}/block_control"
       visible="True">
     <permission value="Modify portal content"/>
