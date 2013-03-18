@@ -40,4 +40,23 @@
         for="Products.CMFPlone.interfaces.IMigratingPloneSiteRoot"
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
+		
+    <!-- 1001 > 1002 -->
+    <genericsetup:upgradeStep
+        title="Remove unused action icon"
+        description=""
+        source="1001"
+        destination="1002"
+        handler="simplelayout.types.flowplayerblock.upgrades.to1002.RemoveIcon"
+        profile="simplelayout.types.flowplayerblock:default"
+        />
+
+    <genericsetup:registerProfile
+        name="1002"
+        title="simplelayout.types.flowplayerblock.upgrades.1002"
+        description=""
+        directory="profiles/1002"
+        for="Products.CMFPlone.interfaces.IMigratingPloneSiteRoot"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
 </configure>

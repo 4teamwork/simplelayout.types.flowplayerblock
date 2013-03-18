@@ -37,11 +37,6 @@
         class=".flowplayer.FlowPlayerBlock"
         permission="zope2.View" />
 
-    <browser:resource
-        name="sl-movie.gif"
-        image="sl-movie.gif"
-        />
-
     <browser:resourceDirectory
         name="simplelayout.flowplayer.js"
         directory="js"
