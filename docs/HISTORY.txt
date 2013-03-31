@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0b3 (unreleased)
+1.0c1 (2013-03-31)
 ------------------
 
 - Remove unused action icon.
