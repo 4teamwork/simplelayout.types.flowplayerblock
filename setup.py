@@ -41,6 +41,7 @@ setup(name='simplelayout.types.flowplayerblock',
         'simplelayout.base',
         'collective.flowplayer',
         'ftw.upgrade',
+        'simplelayout.types.common'
         # -*- Extra requirements: -*-
         ],
 
