@@ -4,7 +4,8 @@ Changelog
 1.0c2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Update Action so it will work with multiple views.
+  [tschanzt]
 
 
 1.0c1 (2013-03-31)
