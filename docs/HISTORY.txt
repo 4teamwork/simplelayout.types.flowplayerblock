@@ -6,6 +6,9 @@ Changelog
 
 - Nothing changed yet.
 
+- Add Plone 4.3.x test setup.
+  [mathias.leimgruber]
+
 
 1.0.1 (2014-06-13)
 ------------------
