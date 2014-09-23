@@ -18,10 +18,10 @@ class TestFlowplayerBlock(TestCase):
         self.portal = self.layer['portal']
         self.portal_url = self.portal.portal_url()
 
-        page = self.portal.get(
-            self.portal.invokeFactory('Page', 'page'))
-        self.file = page.get(
-            page.invokeFactory('File', 'file'))
+        folder = self.portal.get(
+            self.portal.invokeFactory('Folder', 'folder'))
+        self.file = folder.get(
+            folder.invokeFactory('File', 'file'))
         alsoProvides(self.file, IVideo)
 
     def test_js_registered(self):
@@ -50,8 +50,4 @@ class TestFlowplayerBlock(TestCase):
         dummy.filename = "some.flv"
         self.file.setFile(dummy)
         self.assertIn('simplelayout-block-wrapper flowplayerblock',
-                       view.index())
-
-    def tearDown(self):
-        super(TestFlowplayerBlock, self).tearDown()
-        self.portal.manage_delObjects(['page'])
+                      view.index())

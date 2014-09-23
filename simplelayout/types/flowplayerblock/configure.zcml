@@ -42,14 +42,4 @@
         directory="js"
         />
 
-
-    <!-- overrwrite flowplayer view - it should behave like the paragraph_view -->
-    <browser:page
-        name="flowplayer"
-        for="Products.ATContentTypes.interface.IFileContent"
-        class="simplelayout.types.common.browser.views.paragraphView"
-        permission="zope2.View"
-        layer="simplelayout.base.interfaces.ISimpleLayoutLayer"
-        />
-
 </configure>

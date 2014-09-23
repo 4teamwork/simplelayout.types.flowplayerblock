@@ -4,7 +4,14 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add missing upgrade step from release 1.0.1.
+  [mathias.leimgruber]
+
+- Remove dependency on simplelayout.types.common.
+  [mathias.leimgruber]
+
+- Add Plone 4.3.x test setup.
+  [mathias.leimgruber]
 
 
 1.0.1 (2014-06-13)

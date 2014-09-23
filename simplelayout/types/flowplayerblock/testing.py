@@ -17,7 +17,6 @@ class SimplelayoutFlowplayerBlock(PloneSandboxLayer):
         import simplelayout.types.flowplayerblock
         import collective.flowplayer
         import simplelayout.base
-        import simplelayout.types.common
 
         xmlconfig.file('configure.zcml', simplelayout.types.flowplayerblock,
                        context=configurationContext)
@@ -25,20 +24,16 @@ class SimplelayoutFlowplayerBlock(PloneSandboxLayer):
                        context=configurationContext)
         xmlconfig.file('configure.zcml', simplelayout.base,
                        context=configurationContext)
-        xmlconfig.file('configure.zcml', simplelayout.types.common,
-                       context=configurationContext)
 
         # installProduct() is *only* necessary for packages outside
         # the Products.* namespace which are also declared as Zope 2
         # products, using <five:registerPackage /> in ZCML.
         z2.installProduct(app, 'simplelayout.types.flowplayerblock')
         z2.installProduct(app, 'simplelayout.base')
-        z2.installProduct(app, 'simplelayout.types.common')
 
     def setUpPloneSite(self, portal):
         # Install into Plone site using portal_setup
         applyProfile(portal, 'simplelayout.base:default')
-        applyProfile(portal, 'simplelayout.types.common:default')
         applyProfile(portal, 'simplelayout.types.flowplayerblock:default')
 
         setRoles(portal, TEST_USER_ID, ['Manager'])
