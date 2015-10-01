@@ -37,6 +37,7 @@ setup(name='simplelayout.types.flowplayerblock',
       extras_require=dict(tests=tests_require),
 
       install_requires=[
+        'Plone',
         'setuptools',
         'simplelayout.base',
         'collective.flowplayer',
