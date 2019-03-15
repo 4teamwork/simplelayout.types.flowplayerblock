@@ -51,3 +51,29 @@ class TestFlowplayerBlock(TestCase):
         self.file.setFile(dummy)
         self.assertIn('simplelayout-block-wrapper flowplayerblock',
                       view.index())
+
+    def test_href_returns_propper_url_if_file_id_has_extension_included(self):
+        view = queryMultiAdapter((self.file, self.file.REQUEST),
+                                 name="block_view-flowplayer")
+
+        self.file.id = "some.flv"
+        dummy = StringIO("data")
+        dummy.filename = "some.flv"
+        self.file.setFile(dummy)
+
+        self.assertEqual(
+            'http://nohost/plone/folder/some.flv/download',
+            view.href())
+
+    def test_href_returns_propper_url_if_file_id_has_no_extension_included(self):
+        view = queryMultiAdapter((self.file, self.file.REQUEST),
+                                 name="block_view-flowplayer")
+
+        self.file.id = "some"
+        dummy = StringIO("data")
+        dummy.filename = "some.flv"
+        self.file.setFile(dummy)
+
+        self.assertEqual(
+            'http://nohost/plone/folder/some/download?e=.flv',
+            view.href())
