@@ -4,6 +4,7 @@ Changelog
 1.1.1 (unreleased)
 ------------------
 
+- Drop Plone 4.2 support. [elioschmutz]
 - Fix broken video-url for users with edit-permission on flowplayer-block. [elioschmutz]
 - Drop Plone 4.1 support. [jone]
 
