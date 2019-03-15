@@ -14,7 +14,7 @@
          consider such text/image as a splash screen and does not display
          itself until clicked!
         </tal:comment>
-        <a style="width:100%;" tal:attributes="href string:${view/href}/download;
+        <a style="width:100%;" tal:attributes="href string:${view/href};
                            class python:audio and 'autoFlowPlayer audio' or 'autoFlowPlayer video'"></a>
     </div>
 
